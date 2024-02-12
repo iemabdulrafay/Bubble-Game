@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: Gilroy;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#mainbody{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(195, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+   overflow: hidden;
+    width: 85%;
+    height: 85%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#ptop{
+    padding: 0px 28%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(85, 96, 85);
+    
+
+}
+
+.box{
+    /* width: 10%; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+     
+}
+
+.box h2{
+    font-weight: 520;
+    font-size: 22px;
+}
+
+.boxd{
+    padding: 7px 15px;
+    border-radius: 4px;
+    background-color: white;
+    color: rgb(85, 96, 85);
+    border-radius: 5px;
+    font-weight: 530;
+    font-size: 23px;
+}
+
+
+/* Design button part  */
+
+#pbtm{
+    
+    width: 100%;
+    height: calc(100% - 90px);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubble{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(85, 96, 85);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 540;
+    
+}
+
+.bubble:hover{
+    background-color: rgb(72, 79, 72);
+    cursor: pointer;
+
+}
